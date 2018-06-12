@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to url]]>
+    </line>
+    <line>
+      <![CDATA[Script passed]]>
+    </line>
+    <line>
+      <![CDATA[browser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12181" started-at="2018-06-12T19:03:23Z" finished-at="2018-06-12T19:03:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12181" started-at="2018-06-12T19:03:23Z" finished-at="2018-06-12T19:03:35Z">
+      <class name="com.guru.scripts.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.guru.scripts.LoginTest@224edc67]" name="setUp" is-config="true" duration-ms="8581" started-at="2018-06-13T00:33:23Z" finished-at="2018-06-13T00:33:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:1, instance:com.guru.scripts.LoginTest@224edc67]" name="validLoginTest" duration-ms="3140" started-at="2018-06-13T00:33:32Z" finished-at="2018-06-13T00:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.guru.scripts.LoginTest@224edc67]" name="tearDown" is-config="true" duration-ms="420" started-at="2018-06-13T00:33:35Z" finished-at="2018-06-13T00:33:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest()[pri:1, instance:com.guru.scripts.LoginTest@224edc67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Script passed]]>
+            </line>
+            <line>
+              <![CDATA[browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru.scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
