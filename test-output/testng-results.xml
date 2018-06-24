@@ -14,12 +14,12 @@
       <![CDATA[browser closed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="12181" started-at="2018-06-12T19:03:23Z" finished-at="2018-06-12T19:03:35Z">
+  <suite name="Suite" duration-ms="43966" started-at="2018-06-19T05:28:38Z" finished-at="2018-06-19T05:29:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12181" started-at="2018-06-12T19:03:23Z" finished-at="2018-06-12T19:03:35Z">
-      <class name="com.guru.scripts.LoginTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.guru.scripts.LoginTest@224edc67]" name="setUp" is-config="true" duration-ms="8581" started-at="2018-06-13T00:33:23Z" finished-at="2018-06-13T00:33:32Z">
+    <test name="Test" duration-ms="43966" started-at="2018-06-19T05:28:38Z" finished-at="2018-06-19T05:29:22Z">
+      <class name="com.guru.scripts.TasksTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.guru.scripts.TasksTest@46d56d67]" name="setUp" is-config="true" duration-ms="29160" started-at="2018-06-19T10:58:38Z" finished-at="2018-06-19T10:59:07Z">
           <params>
             <param index="0">
               <value>
@@ -36,15 +36,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:1, instance:com.guru.scripts.LoginTest@224edc67]" name="validLoginTest" duration-ms="3140" started-at="2018-06-13T00:33:32Z" finished-at="2018-06-13T00:33:35Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:1, instance:com.guru.scripts.TasksTest@46d56d67]" name="validLoginTest" duration-ms="14763" started-at="2018-06-19T10:59:07Z" finished-at="2018-06-19T10:59:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.guru.scripts.LoginTest@224edc67]" name="tearDown" is-config="true" duration-ms="420" started-at="2018-06-13T00:33:35Z" finished-at="2018-06-13T00:33:35Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.guru.scripts.TasksTest@46d56d67]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-19T10:59:22Z" finished-at="2018-06-19T10:59:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest()[pri:1, instance:com.guru.scripts.LoginTest@224edc67] output={null}]]]>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=TasksTest.validLoginTest()[pri:1, instance:com.guru.scripts.TasksTest@46d56d67] output={null}]]]>
               </value>
             </param>
           </params>
@@ -57,7 +57,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.guru.scripts.LoginTest -->
+      </class> <!-- com.guru.scripts.TasksTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

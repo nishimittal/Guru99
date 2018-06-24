@@ -4,13 +4,13 @@
   <test name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.guru.scripts.LoginTest">
+      <class name="com.guru.scripts.TasksTest">
         <methods>
           <include name="setUp"/>
           <include name="validLoginTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.guru.scripts.LoginTest -->
+      </class> <!-- com.guru.scripts.TasksTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

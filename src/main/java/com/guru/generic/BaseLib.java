@@ -43,9 +43,10 @@ public class BaseLib {
 			String fileName = result.getMethod().getMethodName();
 			ScreenshotHandle slib = new ScreenshotHandle();
 			slib.takeScreenshot(fileName, driver);
+			WaitStatementLib.implicitWaitForSeconds(driver, 120);
 			Reporter.log("Screenshot has been taken", true);
 		}
-		driver.close();
+		//driver.close();
 		Reporter.log("browser closed", true);
 	}
 }
